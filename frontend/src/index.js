@@ -23,7 +23,6 @@ import ProtectedRouteSuperAdmin from "./protectedRoutes/ProtectedRouteSuperAdmin
 import EditClub from "./components/EditClub/EditClub";
 import ProtectedRouteClubAdmin from "./protectedRoutes/ProtectedRouteClubAdmin";
 import ProtectedRouteEventAdmin from "./protectedRoutes/ProtectedRouteEventAdmin";
-import LandingPage from "./components/LandingPage/LandingPage";
 const appRouter = createBrowserRouter([
   {
     path: "/",
@@ -31,10 +30,6 @@ const appRouter = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <LandingPage />,
-      },
-      {
-        path: "/home",
         element: <Home />,
       },
       {

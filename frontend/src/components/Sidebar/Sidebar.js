@@ -19,7 +19,7 @@ const Sidebar = () => {
       </a>
       <div className="mt-10">
         <div className="mb-6">
-          <NavLink to="/home" className="nav-item" activeclassname="active">
+          <NavLink to="/" className="nav-item" activeclassname="active">
             <div className="nav-item-content flex items-center mb-2 hover:bg-gray-100 hover:rounded-md h-10 cursor-pointer  pl-4">
               <GoHome className="text-gray-700 mr-4" />
               <p className="text-gray-700 font-medium title nav-item-text">
