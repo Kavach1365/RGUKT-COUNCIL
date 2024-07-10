@@ -8,8 +8,6 @@ import Clubs from "./components/Clubs/Clubs";
 import Events from "./components/Events/Events";
 import Calender from "./components/Calender/Calender";
 // import Gallery from "./components/Gallery/Gallery";
-import ClubCouncil from "./components/ClubCouncil/ClubCouncil";
-import SupervisoryBodies from "./components/SupervisoryBodies/SupervisoryBodies";
 import BugReport from "./components/BugReport/BugReport";
 import Event from "./components/Event/Event";
 import AddEvents from "./components/Events/AddEvents";
@@ -49,14 +47,6 @@ const appRouter = createBrowserRouter([
       {
         path: "/gallery",
         element: <GalleryMain />,
-      },
-      {
-        path: "/about/club-council",
-        element: <ClubCouncil />,
-      },
-      {
-        path: "/about/supervisory-bodies",
-        element: <SupervisoryBodies />,
       },
       {
         path: "/bug-report",

@@ -4,7 +4,6 @@ import { NavLink } from "react-router-dom";
 import { GoHome } from "react-icons/go";
 import { FaRegCompass, FaTicketAlt, FaBug } from "react-icons/fa";
 import { HiOutlineSpeakerphone } from "react-icons/hi";
-import { IoIosInformationCircleOutline } from "react-icons/io";
 import { SlCalender } from "react-icons/sl";
 import { GrGallery } from "react-icons/gr";
 
@@ -67,33 +66,7 @@ const Sidebar = () => {
             </div>
           </NavLink>
         </div>
-        <div className="mb-4">
-          <h1 className="font-bold text-sm pl-6 mb-2">ABOUT</h1>
-          <NavLink
-            to="/about/club-council"
-            className="nav-item"
-            activeclassname="active"
-          >
-            <div className="nav-item-content flex items-center mb-2 hover:bg-gray-100 hover:rounded-md h-10 cursor-pointer pl-4">
-              <GoHome className="text-gray-500 mr-4" />
-              <p className="text-gray-700 font-medium nav-item-text">
-                Club Council
-              </p>
-            </div>
-          </NavLink>
-          <NavLink
-            to="/about/supervisory-bodies"
-            className="nav-item"
-            activeclassname="active"
-          >
-            <div className="nav-item-content flex items-center mb-2 hover:bg-gray-100 hover:rounded-md h-10 cursor-pointer pl-4">
-              <IoIosInformationCircleOutline className="text-gray-500 mr-4" />
-              <p className="text-gray-700 font-medium nav-item-text">
-                Supervisory Bodies
-              </p>
-            </div>
-          </NavLink>
-        </div>
+        
         <div className="mb-4">
           <h1 className="font-bold text-sm pl-6 mb-2">HELP</h1>
           <NavLink

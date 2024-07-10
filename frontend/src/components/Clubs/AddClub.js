@@ -128,7 +128,7 @@ const AddClub = () => {
 
     setErrorMessage(false);
     try {
-      const res = await axios.post("http://localhost:8005/add-club", clubData);
+      const res = await axios.post("https://rgukt-council-backend.vercel.app/add-club", clubData);
       console.log(res);
       // Reset form fields after successful submission
     } catch (e) {
