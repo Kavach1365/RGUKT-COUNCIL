@@ -65,6 +65,7 @@ const Clubs = () => {
   useEffect(() => {
     const fetchData = async () => {
       const data = await club();
+      console.log(data);
       setClubList(data);
     };
     fetchData();
@@ -73,8 +74,8 @@ const Clubs = () => {
   return (
     <div>
       <CategorySection category="TECHNICAL" clubs={clubList} />
-      <CategorySection category="CULTURAL" clubs={clubList} />
-      <CategorySection category="AFFINITY" clubs={clubList} />
+      <CategorySection category="Cultural Club" clubs={clubList} />
+      <CategorySection category="Service Club" clubs={clubList} />
     </div>
   );
 };
